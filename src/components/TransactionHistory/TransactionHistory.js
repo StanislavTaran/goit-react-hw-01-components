@@ -26,10 +26,8 @@ const TransactionHistory = ({ items }) => {
             );
           })
         ) : (
-          <tr>
-            <td colSpan="3" className={styles.tableRow}>
-              NO DATA
-            </td>
+          <tr className={styles.tableRow}>
+            <td colSpan="3">NO DATA</td>
           </tr>
         )}
       </tbody>
