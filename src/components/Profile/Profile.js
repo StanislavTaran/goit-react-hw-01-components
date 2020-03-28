@@ -32,7 +32,7 @@ const Profile = ({ avatar, name, tag, location, stats }) => {
 
 Profile.defaultProps = {
   avatar:
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS5s9n8MG2RJPcqJSEXvRjGCckFRyCbyatb_DW7NgMy07cD5arh',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnRMNYuYrEXFyDaRo9NiicC5ImbYSGDdxdaKiD91elWtSRt7E1',
   location: 'Unknown',
 };
 
