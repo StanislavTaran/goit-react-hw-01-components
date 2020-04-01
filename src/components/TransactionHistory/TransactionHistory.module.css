@@ -18,17 +18,3 @@
 .tableRow {
   text-align: center;
 }
-
-.tableCell {
-  text-align: center;
-}
-
-.greyRow {
-  composes: tableRow;
-  background-color: rgb(202, 201, 201);
-}
-
-.whiteRow {
-  composes: tableRow;
-  background-color: rgb(255, 255, 255);
-}

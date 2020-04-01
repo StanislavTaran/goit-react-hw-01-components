@@ -1,0 +1,43 @@
+.item {
+  height: 110px;
+  width: 400px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: 2px 1px 16px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 1px 16px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 1px 16px 0px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease-in-out;
+}
+.item:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+.status {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(96, 98, 119);
+  border-radius: 50%;
+  margin: 0 20px;
+}
+
+.isOnline {
+  composes: status;
+  background-color: rgb(10, 223, 10);
+}
+
+.isOffline {
+  composes: status;
+  background-color: rgb(223, 10, 10);
+}
+
+.avatar {
+  height: 48px;
+  border-radius: 8px;
+  margin: 0 20px;
+}
+
+.name {
+  font-family: Segoe UI, sans-serif;
+  font-size: 16px;
+}
