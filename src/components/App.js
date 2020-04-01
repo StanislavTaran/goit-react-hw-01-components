@@ -10,7 +10,7 @@ import TransactionHistory from './TransactionHistory/TransactionHistory';
 
 const App = () => (
   <>
-    <Profile {...user} />
+    <Profile user={user} />
     <Statistics title="Upload stats" stats={statisticalData} />
     <FriendList friends={friends} />
     <TransactionHistory items={transactions} />
