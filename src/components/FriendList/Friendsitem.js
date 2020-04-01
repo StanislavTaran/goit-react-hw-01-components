@@ -8,12 +8,7 @@ const FriendItem = ({ item }) => {
   return (
     <>
       <span className={flagClass}>{item.isOnline}</span>
-      <img
-        className={styles.avatar}
-        src={item.avatar}
-        alt={item.name}
-        width="48"
-      />
+      <img className={styles.avatar} src={item.avatar} alt={item.name} />
       <p className={styles.name}>{item.name}</p>
     </>
   );

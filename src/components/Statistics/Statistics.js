@@ -30,7 +30,7 @@ Statistics.propTypes = {
   title: propTypes.string.isRequired,
   stats: propTypes.arrayOf(
     propTypes.shape({
-      id: propTypes.number.isRequired,
+      id: propTypes.string.isRequired,
     }),
   ).isRequired,
 };
